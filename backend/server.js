@@ -11,6 +11,7 @@ const userRoutes = require('./routes/user')
 const app = express()
 
 // middleware
+
 app.use(cors());
 app.use(express.json())
 
